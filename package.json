@@ -1,0 +1,36 @@
+{
+  "name": "api-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/eslint --color --fix ** && ./node_modules/.bin/nodemon app.js",
+    "eslint": "./node_modules/.bin/eslint --color --fix **",
+    "test": "mocha --recursive"
+  },
+  "author": "Charlie Chang",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.3.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "config": "^1.25.1",
+    "glob": "^7.1.1",
+    "hapi": "^16.1.1",
+    "hapi-auth-jwt2": "^7.2.4",
+    "inert": "^4.2.0",
+    "jsonwebtoken": "^7.4.0",
+    "lout": "^10.0.1",
+    "mocha": "^5.1.1",
+    "moment": "^2.18.1",
+    "mysql": "^2.15.0",
+    "nyc": "^11.7.1",
+    "request": "^2.84.0",
+    "request-promise": "^4.2.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "nodemon": "^1.17.2"
+  }
+}

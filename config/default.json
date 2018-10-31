@@ -1,0 +1,17 @@
+{
+  "port": 3001,
+  "privateKeys": {
+    "login": "login1234567"
+  },
+  "commons": {
+    "domain": "test.com",
+    "serverURL": "http://127.0.0.1:3001"
+  },
+  "db": {
+    "host": "XXX.XXX.XXX.XXX",
+    "user": "USER_NAME",
+    "password": "PASSWORD",
+    "database": "DATABASE_NAME",
+    "pageLimit": 20
+  }
+}
